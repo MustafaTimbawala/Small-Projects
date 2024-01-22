@@ -1,0 +1,98 @@
+﻿body {
+    margin: 0px;
+    background-color: #F5EFE6;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    text-align: left;
+    color: #7895B2;
+    width:50%;
+}
+h1 {
+    color: #7895B2;
+    font-size: 25px;
+    width:50%;
+    height:fit-content;
+    margin:0px;
+
+}
+header {
+    background-color: #E8DFCA ;
+    padding:15px;
+    margin:0px;
+    width: 100%;
+    font-size:25px;
+    padding-right:5px;
+}
+#home {
+    padding-left:5px;
+    padding-right: 5px; 
+    color: #7895B2;
+}
+#log {
+    padding-right: 5px;
+    color: #7895B2;
+}
+#contact {
+    padding-right: 5px;
+    color: #7895B2;
+}
+
+div.description {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+div.Book {
+    display: flex; 
+    flex-direction:row; 
+    justify-content:space-evenly;
+    width: 100%; 
+    height: fit-content; 
+    padding:20px;
+    padding-right:0px
+}
+
+div.Book p {
+    color:black;
+}
+
+div.Book h1 {
+    color: black;
+}
+#book1 {
+    background-color: #9DC08B;
+
+}
+
+#book2 {
+    background-color: #FFDB89;
+}
+
+a:link {
+    color:black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #7895B2;
+}
+
+#book3 {
+    background-color: #C58940;
+}
+#book4 {
+    background-color: #6096B4;
+}
+img {
+    width:25%;
+    height:350px;
+}
+
+footer {
+    background-color: #E8DFCA;
+    height:max-content;
+    width: 100%;
+    color: #7895B2;
+}
